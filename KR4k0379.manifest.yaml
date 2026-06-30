@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR4k0379/v1
+canonical_location: https://kanripo.org/bkk/KR4k0379/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 王度二石傳一卷
+  identifiers:
+    krp: KR4k0379
+  tags:
+    kr-categories: KR4k
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR4k0379.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR4k0379_001.yaml, hash: 'sha256:25bc427c8381b8991a5252821d18f6528e13c28d32e58cb636d27fb649ca6a96'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR4k0379_001.markers.yaml, hash: 'sha256:a90a292d96dc8ea3a0cd929ef3754a720b058e8c2e8ffd69c669b661f3c08da3'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR4k0379_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 1014
+  label: 王度二石傳
+  type: section
+  level: 1
+hash: sha256:280ffa5e8d5100724c02eff9d5bec91356bf723494948d85efdd6bef4ef45dcb
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
